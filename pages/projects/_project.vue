@@ -20,7 +20,7 @@
             v-for="image in post.gallery"
             class="image"
             :key="image.id"
-            :src="require(`~/assets/img/${image}`)"
+            :src="require(`~/assets/img/${image}?nf_resize=fit&w=800`)"
           >
         </div>
       </article>
