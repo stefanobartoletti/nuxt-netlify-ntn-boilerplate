@@ -4,8 +4,8 @@ title: Fill Murrays
 description: Yet another placeholding project, but with Bills
 cover: /img/81oxhtgyhal._sl1085_.jpg
 gallery:
-  - post-1.jpg
-  - post-5.jpg
+  - /img/post-1.jpg
+  - /img/post-5.jpg
 ---
 
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.

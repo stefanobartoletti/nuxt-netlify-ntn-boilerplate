@@ -9,7 +9,7 @@
         <img
           v-if="post.cover"
           class="cover-image"
-          :src="require(`~/assets/img/${post.cover}`)"
+          :src="`${post.cover}?nf_resize=fit&w=800`"
         >
         <!-- <h6 class="inline py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm">{{ post.category }}</h6> -->
         <h1 class="">{{ post.title }}</h1>
@@ -20,7 +20,7 @@
             v-for="image in post.gallery"
             class="image"
             :key="image.id"
-            :src="require(`~/assets/img/${image}?nf_resize=fit&w=800`)"
+            :src="`${image}?nf_resize=fit&w=800`"
           >
         </div>
       </article>
