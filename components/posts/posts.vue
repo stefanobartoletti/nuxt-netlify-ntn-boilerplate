@@ -17,7 +17,7 @@
           <img
             v-if="post.cover"
             class="cover-image"
-            :src="require(`~/assets/img/${post.cover}`)"
+            :src="require(`~/assets/img/${post.cover}?nf_resize=fit&w=400`)"
           >
         </template>
 
