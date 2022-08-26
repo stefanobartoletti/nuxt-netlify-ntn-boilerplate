@@ -2,8 +2,8 @@
 category: animals
 title: Placeholder Bears
 description: Necessary to show how a project with the category Animals is used
-cover: https://placebear.com/400/200
-gallery: ['https://placebear.com/g/800/400', 'https://placebear.com/600/600']
+cover: post-4.jpg
+gallery: ['post-5.jpg', 'post-6.jpg']
 ---
 
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.

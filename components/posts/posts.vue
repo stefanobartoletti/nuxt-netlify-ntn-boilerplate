@@ -17,7 +17,7 @@
           <img
             v-if="post.cover"
             class="cover-image"
-            :src="post.cover"
+            :src="require(`~/assets/img/${post.cover}`)"
           >
         </template>
 
